@@ -65,6 +65,8 @@ with open(sys.argv[1], 'r') as f:
                         g.write("{:>10}".format(wat)+'   '+str("{:>10}".format(index_counter))+'\n')
                         #print(wat, index_counter)
                         break
+
     g.write("Number of unique indices: "+str(len(water_idx_list)))
+
 g.close()
 f.close()
