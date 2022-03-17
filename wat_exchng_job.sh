@@ -1,6 +1,6 @@
 #!/bin/bash
 
-file_name="sm2-wb_ccNew.arc"
+file_name="file"
 
 for i in `echo $file_name`; do
 
